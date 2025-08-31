@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<style>
+		header {
+			background-color: rgb(34, 125, 34);
+			padding: 5 15px;
+			display: flex;
+			align-items: center;
+		}
+
+		h1 {
+			margin: 03px;
+		}
+
+		.nav-center {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+		}
+
+		.nav-center a {
+			margin: 0 40px;
+			text-decoration: none;
+			color: rgb(240, 235, 235);
+		}
+
+		nav a:hover {
+			color: black;
+		}
+	</style>
+
+	<header>
+		<h1>My Website</h1>
+
+		<nav class="nav-center">
+			<a href="index.html">Home</a>
+			<a href="skills.html">Skills</a>
+	
+
+	</header>
+
+	<style>
+		footer {
+			background: rgb(34, 125, 34);
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px 20px;
+			box-sizing: border-box;
+		}
+
+		footer p {
+			margin: 0;
+		}
+	</style>
+
+
+	<footer>
+		<p> &copy; 2025 My Website</p>
+		<p> &copy; fahim.cse118044@baiust.ac.bd</p>
+	</footer>
+
+	<style>
+		.right-img {
+			float: right;
+			width: 160px;
+			height: 250px;
+			margin: 40px;
+		}
+	</style>
+	<img src="hello.jpg" alt="Picture" class="right-img">
+
+	<style>
+		.color-text {
+			color: rgb(41, 146, 97);
+			font-family: "Times New Roman", Arial, sans-serif;
+			text-align: justify;
+			margin-left: 30px;
+			font-size: 27px;
+			font-weight: bold;
+		}
+	</style>
+	<br><br>
+	<p class="color-text">Let's have a chat:</p>
+
+	<style>
+		body {
+			
+			font-family: "Times New Roman", Arial, sans-serif;
+			
+		}
+	
+		label {
+			margin-left: 30px;
+			display: block;
+			margin-top: 10px;
+			font-weight: bold;
+		}
+	
+		input, textarea {
+			margin-left: 30px;
+		       resize: none;
+			width: 250px;
+			padding: 8px;
+			margin-top: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+	
+		button {
+			margin-left: 30px;
+			margin-top: 15px;
+			padding: 8px 20px;
+			background: green;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	
+		button:hover {
+			background: darkgreen;
+		}
+	</style>
+	<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Enter your name">
+	
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Enter your email">
+	
+		<label for="message">Message</label>
+		<textarea id="message" rows="0" placeholder="Write your message"></textarea><br>
+		<button type="submit">Send</button>
+	</form>
+
+
+</body>
+
+</html>
