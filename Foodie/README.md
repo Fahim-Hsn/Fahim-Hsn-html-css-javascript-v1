@@ -22,4 +22,4 @@ MealFinder lets you search meals by country. Type a country name, click **Search
 
 ## Live Demo
 
-[Click here to try MealFinder live](https://your-live-link-here)
+[Click here to try MealFinder live]([https://your-live-link-here](https://fahim-hsn.github.io/Fahim-Hsn-html-css-javascript-v1/Foodie/))
